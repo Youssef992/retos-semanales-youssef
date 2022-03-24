@@ -68,7 +68,7 @@ function ordena() {
     let numeros = prompt('Ingresa el total de números a ordenar');
     numeros = Number(numeros);
     for (let i = 0; i < numeros; i++) {
-        let numero = prompt('Ingresa el numero' + (i+1));
+        let numero = prompt('Ingresa el valor del número' + (i+1));
         numero = Number(numero);
         arrnumeros[i] = numero;
     }
